@@ -10,6 +10,8 @@ COPY requirements.txt .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY . .
+
 # Expose port untuk Jupyter Notebook
 EXPOSE 8888
 
