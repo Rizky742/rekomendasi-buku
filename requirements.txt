@@ -3,3 +3,4 @@ numpy
 scikit-learn
 fuzzywuzzy
 python-Levenshtein
+jupyter
