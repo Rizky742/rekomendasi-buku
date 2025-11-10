@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 8889
 
 # Jalankan Jupyter Notebook
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8889", "--no-browser"]
